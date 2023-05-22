@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
 *{
   font-family: 'Exo', sans-serif;
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 45vmin;
   pointer-events: none;
 }
 
@@ -25,7 +28,6 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 
 
@@ -40,6 +42,7 @@
     width: 100%;
     position: absolute;
     top:20vh;
+    opacity: 50;
     
 }
 
@@ -47,14 +50,14 @@
     text-align: center;
     color: #fff;
     font-size: 30px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 2px 2px black;
 }
 
 .context h2 {
   text-align: center;
   color: black;
   font-size: 25px;
-  text-shadow: 1px 1px 1px yellow;
+  text-shadow: 0.5px 0.5px 0.5px yellow;
 }
 
 .context p {
@@ -65,10 +68,12 @@
 }
 
 .area{
-    background: #4e54c8;  
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
-    width: 100%;
-    height:100vh;
+    background-image: url('background.jpg');
+    background-color: #381152;
+    background-size: 135%;  
+    background-repeat: no-repeat; 
+    height: 100vh;
+    background-position: left;
     
    
 }
@@ -88,16 +93,17 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(56, 34, 228, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
+    box-shadow: 1px 1px 1px black;
     
 }
 
 .circles li:nth-child(1){
     left: 25%;
-    width: 80px;
-    height: 80px;
+    width: 10px;
+    height: 10px;
     animation-delay: 0s;
 }
 
@@ -107,7 +113,7 @@
     width: 20px;
     height: 20px;
     animation-delay: 2s;
-    animation-duration: 12s;
+    animation-duration: 50s;
 }
 
 .circles li:nth-child(3){
@@ -122,7 +128,7 @@
     width: 60px;
     height: 60px;
     animation-delay: 0s;
-    animation-duration: 18s;
+    animation-duration: 20s;
 }
 
 .circles li:nth-child(5){
@@ -134,15 +140,15 @@
 
 .circles li:nth-child(6){
     left: 75%;
-    width: 110px;
-    height: 110px;
+    width: 50px;
+    height: 50px;
     animation-delay: 3s;
 }
 
 .circles li:nth-child(7){
     left: 35%;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
     animation-delay: 7s;
 }
 
@@ -164,10 +170,10 @@
 
 .circles li:nth-child(10){
     left: 85%;
-    width: 150px;
-    height: 150px;
+    width: 40px;
+    height: 40px;
     animation-delay: 0s;
-    animation-duration: 11s;
+    animation-duration: 10s;
 }
 
 
@@ -177,7 +183,7 @@
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
-        border-radius: 0;
+        border-radius: 50%;
     }
 
     100%{

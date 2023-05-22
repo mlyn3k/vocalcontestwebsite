@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Jak za dawnych lat</h1>
         <p>
-          I Przegląd Piosenki Polskiej
+          I Przegląd Polskiej Piosenki
         </p>
         <br></br><br></br>
         <h2>Strona w budowie</h2>
