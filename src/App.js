@@ -12,7 +12,7 @@ function App() {
         </p>
         <h2>Strona w budowie</h2>
       </div>
-      <p>Copyright - 2023 @ mlyn3k</p>
+      <p>Copyright @ 2023</p>
     </div>
   );
 }
