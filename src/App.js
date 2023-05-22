@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div className="main-container">
     <div className="context">
 
         <img src={logo} className="App-logo" alt="logo" />
@@ -32,7 +32,7 @@ function App() {
     <footer>
     <p>Copyright @ 2023</p>
     </footer>
-    </>
+    </div>
   );
 }
 
