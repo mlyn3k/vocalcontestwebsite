@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-body">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Jak za dawnych lat</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I Przegląd Piosenki Polskiej
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h2>Strona w budowie</h2>
+      </div>
+      <p>Copyright - 2023 @ mlyn3k</p>
     </div>
   );
 }
