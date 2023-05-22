@@ -11,7 +11,6 @@ function App() {
           I Przegląd Piosenki Polskiej
         </p>
         <h2>Strona w budowie</h2>
-        <h3>Zapraszamy po więcej info</h3>
       </div>
       <p>Copyright @ 2023</p>
     </div>
