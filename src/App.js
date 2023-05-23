@@ -12,7 +12,7 @@ function App() {
           I Przegląd Polskiej Piosenki
         </p>
         <br></br><br></br>
-        <h2>Strona w budowie</h2>
+        <button>Przycisk</button>
       </div>
 
       <div className="area" >
