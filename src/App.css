@@ -8,7 +8,7 @@
 
 .App-logo {
 position: relative;
-top: -10%;
+top: -15%;
   height: 35vmin;
   pointer-events: none;
 }
@@ -44,7 +44,7 @@ top: -10%;
     width: 70%;
     position: absolute;
     border-style: double;
-    border-radius: 10%;
+    border-radius: 20%;
     box-shadow: 2px 2px 2px rgb(102, 52, 203);
     background-color: rgb(108, 38, 174, 0.1);
     top:10%;
@@ -57,21 +57,21 @@ top: -10%;
 .context h1 {
     text-align: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 2rem;
     text-shadow: 3px 2px 2px black;
 }
 
 .context h2 {
   text-align: center;
   color: white;
-  font-size: 18px;
+  font-size: 1rem;
   text-shadow: 2px 2px 2px black;
 }
 
 .context p {
   text-align: center;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.1rem;
   text-shadow: 2px 2px 2px black;
 }
 
