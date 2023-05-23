@@ -1,7 +1,6 @@
 import logo from './logo.png';
 import './App.css';
 import { Button } from '@mui/material';
-import { Link } from 'react-router-dom';
 
 function Invitation() {
   return (
