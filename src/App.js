@@ -17,7 +17,10 @@ function App() {
         <p>Jesteś zainteresowany?</p>
         <br></br>
         <Button variant="contained">Zapisz się!</Button>
-      
+        <nav className='nav'>
+        <Button variant="outlined">Regulamin</Button>
+        <Button variant="outlined">Facebook</Button>
+        </nav>
         </div>
   
 

@@ -86,6 +86,11 @@ top: -10%;
    
 }
 
+.nav {
+margin: 2%
+    
+}
+
 .circles{
     position: static;
     top: 0;
