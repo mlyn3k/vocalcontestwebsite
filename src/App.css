@@ -8,7 +8,7 @@
 
 .App-logo {
 position: relative;
-top: -15%;
+top: -10%;
   height: 35vmin;
   pointer-events: none;
 }
@@ -43,9 +43,7 @@ top: -15%;
 .context {
     width: 70%;
     position: absolute;
-    border-style: double;
-    border-radius: 20%;
-    box-shadow: 2px 2px 2px rgb(102, 52, 203);
+    border-radius: 10%;
     background-color: rgb(108, 38, 174, 0.1);
     top:10%;
     bottom: 10%;
@@ -57,21 +55,21 @@ top: -15%;
 .context h1 {
     text-align: center;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-shadow: 3px 2px 2px black;
 }
 
 .context h2 {
   text-align: center;
   color: white;
-  font-size: 1rem;
-  text-shadow: 2px 2px 2px black;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 1px rgb(211, 237, 8);
 }
 
 .context p {
   text-align: center;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -102,7 +100,7 @@ top: -15%;
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(56, 34, 228, 0.2);
+    background: rgba(56, 34, 228, 0.05);
     animation: animate 25s linear infinite;
     bottom: 0px;
     box-shadow: 1px 1px 1px black;
@@ -133,7 +131,7 @@ top: -15%;
 }
 
 .circles li:nth-child(4){
-    left: 40%;
+    left: 90%;
     width: 60px;
     height: 60px;
     animation-delay: 0s;
@@ -155,14 +153,14 @@ top: -15%;
 }
 
 .circles li:nth-child(7){
-    left: 35%;
-    width: 90px;
-    height: 90px;
+    left: 85%;
+    width: 20px;
+    height: 20px;
     animation-delay: 0s;
 }
 
 .circles li:nth-child(8){
-    left: 50%;
+    left: 60%;
     width: 25px;
     height: 25px;
     animation-delay: 0s;
