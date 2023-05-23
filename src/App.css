@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
+.app {
+    background-color: #381152;
+    height: 100vh;
+
+}
 
 *{
   font-family: 'Exo', sans-serif;
   text-align: center;
+  color:#fff
 }
 
 .App-logo {
@@ -78,16 +84,18 @@ top: -10%;
 .area{
     background-image: url('background.jpg');
     background-color: #381152;
-    background-size: 130%;  
+    background-size: 150%;  
     background-repeat: no-repeat; 
-    height: 100vh;
+    height: 80vh;
     background-position: center;
     
    
 }
 
 .nav {
-margin: 2%
+margin: 2%;
+background-color: rgb(108, 38, 174, 0.1);
+box-shadow: 1px 1px 3px black;
     
 }
 

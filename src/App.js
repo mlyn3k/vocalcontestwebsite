@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 
 function App() {
   return (
-    <>
+    <div className='app'>
     <div className="context">
 
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,10 +17,7 @@ function App() {
         <p>Jesteś zainteresowany?</p>
         <br></br>
         <Button variant="contained">Zapisz się!</Button>
-        <nav className='nav'>
-        <Button variant="outlined">Regulamin</Button>
-        <Button variant="outlined">Facebook</Button>
-        </nav>
+        
         </div>
   
 
@@ -41,10 +38,14 @@ function App() {
 
 
         </div>
+        <nav className='nav'>
+        <Button variant="outlined">Regulamin</Button>
+        <Button variant="outlined">Facebook</Button>
+        </nav>
     <footer>
     <p>Copyright @ 2023</p>
     </footer>
-    </>
+    </div>
   );
 }
 
