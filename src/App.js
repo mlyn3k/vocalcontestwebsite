@@ -15,10 +15,8 @@ function App() {
           I Przegląd Polskiej Piosenki to konkurs wokalny, dla solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
         </p>
         <p>Jesteś zainteresowany?</p>
-        <br></br>
-        <a href='https://forms.gle/jnBHqZi1ob7xmqZn9'>
-        <Button variant="contained">Zapisz się!</Button>
-        </a>
+        <br></br>       
+        <Button href='https://forms.gle/jnBHqZi1ob7xmqZn9' variant="contained">Zapisz się!</Button>
         </div>
   
 
