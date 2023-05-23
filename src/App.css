@@ -53,8 +53,8 @@ top: -10%;
     border-radius: 10%;
     box-shadow: 1px 1px 3px black;
     background-color: rgb(108, 38, 174, 0.1);
-    top:10%;
-    bottom: 10%;
+    top:5%;
+    bottom: 5%;
     left: 10%
 
     
@@ -112,8 +112,8 @@ box-shadow: 1px 1px 3px black;
     position: absolute;
     display: block;
     list-style: none;
-    width: 20px;
-    height: 20px;
+    width: 0px;
+    height: 0px;
     background: rgba(56, 34, 228, 0.05);
     animation: animate 25s linear infinite;
     bottom: 0px;
