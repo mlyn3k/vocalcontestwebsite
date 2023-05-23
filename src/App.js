@@ -18,8 +18,8 @@ function App() {
         <br></br>
         <Button variant="contained">Zapisz się!</Button>
       
-        
-    </div>
+        </div>
+  
 
       <div className="area" >
             <ul className="circles">
