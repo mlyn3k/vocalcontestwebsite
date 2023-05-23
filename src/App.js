@@ -16,8 +16,9 @@ function App() {
         </p>
         <p>Jesteś zainteresowany?</p>
         <br></br>
+        <a href='https://forms.gle/jnBHqZi1ob7xmqZn9'>
         <Button variant="contained">Zapisz się!</Button>
-        
+        </a>
         </div>
   
 
@@ -39,8 +40,12 @@ function App() {
 
         </div>
         <nav className='nav'>
+        <a href='./regulaminPPP.pdf'>
         <Button variant="outlined">Regulamin</Button>
+        </a>
+        <a href='https://www.facebook.com/konkurspiosenkipolskiej/'>
         <Button variant="outlined">Facebook</Button>
+        </a>
         </nav>
     <footer>
     <p>Copyright @ 2023</p>
