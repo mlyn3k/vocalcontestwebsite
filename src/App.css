@@ -7,7 +7,9 @@
 }
 
 .App-logo {
-  height: 45vmin;
+position: relative;
+top: -10%;
+  height: 35vmin;
   pointer-events: none;
 }
 
@@ -17,9 +19,7 @@
   }
 }
 
-.main-container {
-  
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -41,10 +41,16 @@
 
 
 .context {
-    width: 100%;
+    width: 70%;
     position: absolute;
-    top:20vh;
-    opacity: 50;
+    border-style: double;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px rgb(102, 52, 203);
+    background-color: rgb(108, 38, 174, 0.1);
+    top:10%;
+    bottom: 10%;
+    left: 10%
+
     
 }
 
@@ -57,9 +63,9 @@
 
 .context h2 {
   text-align: center;
-  color: black;
-  font-size: 25px;
-  text-shadow: 0.5px 0.5px 0.5px yellow;
+  color: white;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .context p {
@@ -82,7 +88,7 @@
 }
 
 .circles{
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
@@ -98,7 +104,7 @@
     height: 20px;
     background: rgba(56, 34, 228, 0.2);
     animation: animate 25s linear infinite;
-    bottom: -150px;
+    bottom: 0px;
     box-shadow: 1px 1px 1px black;
     
 }
@@ -115,7 +121,7 @@
     left: 10%;
     width: 20px;
     height: 20px;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-duration: 50s;
 }
 
@@ -123,7 +129,7 @@
     left: 70%;
     width: 20px;
     height: 20px;
-    animation-delay: 4s;
+    animation-delay: 0s;
 }
 
 .circles li:nth-child(4){
@@ -145,21 +151,21 @@
     left: 75%;
     width: 50px;
     height: 50px;
-    animation-delay: 3s;
+    animation-delay: 0s;
 }
 
 .circles li:nth-child(7){
     left: 35%;
     width: 90px;
     height: 90px;
-    animation-delay: 7s;
+    animation-delay: 0s;
 }
 
 .circles li:nth-child(8){
     left: 50%;
     width: 25px;
     height: 25px;
-    animation-delay: 15s;
+    animation-delay: 0s;
     animation-duration: 45s;
 }
 
@@ -167,7 +173,7 @@
     left: 20%;
     width: 15px;
     height: 15px;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-duration: 35s;
 }
 
@@ -196,3 +202,4 @@
     }
 
 }
+

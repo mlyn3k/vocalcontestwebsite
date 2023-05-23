@@ -1,19 +1,25 @@
 import logo from './logo.png';
 import './App.css';
+import { Button } from '@mui/material';
 
 function App() {
   return (
-    <div className="main-container">
+    <>
     <div className="context">
 
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Jak za dawnych lat</h1>
+        <h2>I Przegląd Polskiej Piosenki</h2>
+        <br></br>
         <p>
-          I Przegląd Polskiej Piosenki
+          I Przegląd Polskiej Piosenki to konkurs wokalny, dla solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
         </p>
-        <br></br><br></br>
+        <p>Jesteś zainteresowany?</p>
+        <br></br>
+        <Button variant="contained">Zapisz się!</Button>
+      
         
-      </div>
+    </div>
 
       <div className="area" >
             <ul className="circles">
@@ -27,12 +33,15 @@ function App() {
                     <li></li>
                     <li></li>
                     <li></li>
+
             </ul>
-    </div >
+
+
+        </div>
     <footer>
     <p>Copyright @ 2023</p>
     </footer>
-    </div>
+    </>
   );
 }
 
