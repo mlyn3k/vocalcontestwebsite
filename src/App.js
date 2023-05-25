@@ -15,7 +15,7 @@ function Invitation() {
       <h2>I Przegląd Piosenki Polskiej</h2>
       <br></br>
       <p>
-        I Przegląd Piosenki Polskiej to konkurs wokalny, dla solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
+        I Przegląd Piosenki Polskiej to konkurs wokalny dla solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
       </p>
       <p>Jesteś zainteresowany?</p> 
       <br></br>      
