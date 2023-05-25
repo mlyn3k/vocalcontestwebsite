@@ -1,4 +1,9 @@
 import logo from './logo.png';
+import logoolsztyn from './sponsors/logoolsztyn.jpg';
+import logopholsztyn from './sponsors/logopholsztyn.jpg';
+import logopomost from './sponsors/logopomost.jpg';
+import logosantander from './sponsors/logosantander.png';
+import logowowka from './sponsors/logowowka.jpg';
 import './App.css';
 import { Button } from '@mui/material';
 
@@ -19,6 +24,21 @@ function Invitation() {
       <p>Zgłoszenia przyjmujemy do 11 czerwca 2023!</p>
       </>
   );
+}
+
+function Sponsors() {
+  return (
+    <>
+<div>
+        <img src={logoolsztyn} className="sponsors" alt="logoolsztyn" />
+        <img src={logopholsztyn} className="sponsors" alt="logopholsztyn" />
+        <img src={logosantander} className="sponsors" alt="logosantander" />
+        <img src={logopomost} className="sponsors" alt="logopomost" />
+        <img src={logowowka} className="sponsors" alt="logowowka" />
+        
+        </div>
+    </>
+  )
 }
 
 
@@ -51,9 +71,12 @@ function App() {
         <Button href='https://drive.google.com/file/d/1kAeOEVDHBOCH0yAkZ7CZ1TNoBdVijXsv/view?usp=sharing' variant="outlined">Regulamin</Button> 
         <Button href='https://www.facebook.com/konkurspiosenkipolskiej/' variant="contained">Facebook</Button>
         </nav>
+        <Sponsors/>
     <footer>
-    <p> - Copyright @ 2023 - </p>
+    <p> - Copyright - 2023 - </p>
+    <h3>Powered by Łukasz Młynarczyk</h3>
     </footer>
+    
     </div>
   );
 }

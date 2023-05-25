@@ -15,7 +15,7 @@
 
 .App-logo {
 position: relative;
-top: -10%;
+top: -5%;
   height: 35vmin;
   pointer-events: none;
 }
@@ -54,9 +54,10 @@ top: -10%;
     border-radius: 10%;
     box-shadow: 1px 1px 3px black;
     background-color: rgb(108, 38, 174, 0.1);
-    top:5%;
+    top:3%;
     bottom: 5%;
     left: 10%;
+   
 
     
 }
@@ -82,19 +83,26 @@ top: -10%;
   text-shadow: 2px 2px 2px black;
 }
 
+h3 {
+    text-align: center;
+    color: #5e5959;
+    font-size: 0.7rem;
+    text-shadow: 1px 2px 2px black;
+  }
+
 .area{
     background-image: url('background.jpg');
     background-color: #381152;
     background-size: 150%;  
     background-repeat: no-repeat; 
-    height: 80vh;
+    height: 75vh;
     background-position: center;
     
    
 }
 
 .nav {
-margin: 2%;
+margin: 1%;
 background-color: rgb(108, 38, 174, 0.1);
 box-shadow: 1px 1px 3px black;
     
@@ -216,3 +224,7 @@ box-shadow: 1px 1px 3px black;
 
 }
 
+.sponsors {
+    height: 60px;
+    margin-right: 1px;
+}
