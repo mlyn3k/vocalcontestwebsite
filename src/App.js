@@ -12,10 +12,10 @@ function Invitation() {
       <>
       <img src={logo} className="App-logo" alt="logo" />
       <h1>Jak za dawnych lat</h1>
-      <h2>I Przegląd Piosenki Polskiej</h2>
+      <h2>I Konkurs Piosenki Polskiej</h2>
       <br></br>
       <p>
-        I Przegląd Piosenki Polskiej to konkurs wokalny dla solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
+        I Konkurs Piosenki Polskiej skierowany jest do solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
       </p>
       <p>Jesteś zainteresowany?</p> 
       <br></br>      
