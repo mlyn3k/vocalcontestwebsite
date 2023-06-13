@@ -17,11 +17,13 @@ function Invitation() {
       <p>
         I Konkurs Piosenki Polskiej skierowany jest do solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
       </p>
-      <p>Jesteś zainteresowany?</p> 
       <br></br>      
-      <Button href='https://forms.gle/jnBHqZi1ob7xmqZn9' variant="contained">Zapisz się!</Button>
-      <br></br><br></br>
-      <p>Zgłoszenia przyjmujemy do 11 czerwca 2023!</p>
+      
+      <p>Termin zgłoszeń do I edycji minął 11 czerwca 2023</p>
+      <p>Już niebawem poznacie finalistów konkursu.</p>
+      <p>Chcesz być na bieżąco? Odwiedź nasz profil na Facebooku!</p><br></br>
+      <h2>Finał odbędzie się 28 czerwca 2023 roku w Olsztynie!</h2>
+      
       </>
   );
 }
