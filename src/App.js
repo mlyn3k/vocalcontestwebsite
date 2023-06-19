@@ -4,6 +4,7 @@ import logopholsztyn from './sponsors/logopholsztyn.jpg';
 import logopomost from './sponsors/logopomost.jpg';
 import logosantander from './sponsors/logosantander.png';
 import logowowka from './sponsors/logowowka.jpg';
+import logomu from './sponsors/logomu.jpg';
 import './App.css';
 import { Button } from '@mui/material';
 
@@ -35,6 +36,7 @@ function Sponsors() {
         <img src={logosantander} className="sponsors" alt="logosantander" />
         <img src={logopomost} className="sponsors" alt="logopomost" />
         <img src={logowowka} className="sponsors" alt="logowowka" />
+        <img src={logomu} className="sponsors" alt="logomu" />
         
         </div>
     </>
