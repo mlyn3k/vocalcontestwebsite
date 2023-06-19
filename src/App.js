@@ -19,10 +19,8 @@ function Invitation() {
       </p>
       <br></br>      
       
-      <p>Termin zgłoszeń do I edycji minął 11 czerwca 2023</p>
-      <p>Już niebawem poznacie finalistów konkursu.</p>
       <p>Chcesz być na bieżąco? Odwiedź nasz profil na Facebooku!</p><br></br>
-      <h2>Finał odbędzie się 28 czerwca 2023 roku w Olsztynie!</h2>
+      <h2>Finał już 28 czerwca 2023 roku w Olsztynie!</h2>
       
       </>
   );
