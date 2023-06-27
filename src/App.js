@@ -7,7 +7,7 @@ import logowowka from './sponsors/logowowka.jpg';
 import logomu from './sponsors/logomu.jpg';
 import './App.css';
 
-{/*import { Button } from '@mui/material'*/}
+
 
 function Invitation() {
   return (
