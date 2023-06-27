@@ -12,8 +12,10 @@ function Invitation() {
   return (
       <>
       <img src={logo} className="App-logo" alt="logo" />
+       {/*
       <h1>Jak za dawnych lat</h1>
       <h2>I Konkurs Piosenki Polskiej</h2>
+     
       <br></br>
       <p>
         I Konkurs Piosenki Polskiej skierowany jest do solistów - uczestników Środowiskowych Domów Samopomocy z całej Polski.
@@ -21,7 +23,9 @@ function Invitation() {
       <br></br>      
       
       <p>Chcesz być na bieżąco? Odwiedź nasz profil na Facebooku!</p><br></br>
-      <h2>Finał już 28 czerwca 2023 roku w Olsztynie!</h2>
+     
+      <h2>FINAŁ</h2>
+       */}
       
       </>
   );
@@ -69,13 +73,15 @@ function App() {
 
 
         </div>
+        {/*
         <nav className='nav'>
         <Button href='https://drive.google.com/file/d/1kAeOEVDHBOCH0yAkZ7CZ1TNoBdVijXsv/view?usp=sharing' variant="outlined">Regulamin</Button> 
         <Button href='https://www.facebook.com/konkurspiosenkipolskiej/' variant="contained">Facebook</Button>
         </nav>
+        */}
         <Sponsors/>
-    <footer>
-    <p> - Copyright - 2023 - </p>
+    <footer><br></br><br></br>
+    {/*<p> - Copyright - 2023 - </p>*/}
     <h3>Powered by Łukasz Młynarczyk</h3>
     </footer>
     

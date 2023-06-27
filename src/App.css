@@ -16,13 +16,13 @@
 .App-logo {
 position: relative;
 top: -8%;
-  height: 35vmin;
+  height: 83vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 25s linear;
+    animation: App-logo-spin infinite 45s linear;
   }
 }
 
@@ -229,7 +229,7 @@ box-shadow: 1px 1px 3px black;
 }
 
 .sponsors {
-    height: 30px;
+    height: 150px;
     margin-top: 5px;
     margin-right: 1px;
 }
